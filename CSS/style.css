@@ -32,18 +32,24 @@ body {
 .website_logo{
 
 max-height: 100px;
-	max-width: 400px;
-	min-height: 100px;
-	min-width: 300px;
-	align-self: left;
-	display: inline-block;
 
-	margin-top: 0.1in;
-    margin-left: -400px;
-    
-	width: 40%;
-	padding-left: -100%;
+max-width: 400px;
 
+min-height: 100px;
+
+min-width: 300px;
+
+align-self: left;
+
+display: inline-block;
+
+margin-top: 0.1in;
+
+/* margin-left: -400px; */
+
+width: 40%;
+
+padding-left: -100%;
 }
 
 .website_photo{
@@ -59,10 +65,10 @@ margin-right: 100px;
     color: #ffffff;
     position: fixed;
     overflow: hidden;
-    min-height: 50px;
-    width: 100vw;
+    min-height: 40px;
+    width: 100%;
     max-width: 100%;
-    display: flex;
+    /* display: flex; */
     align-items: flex-start;
     margin-top: -30px;
     display: block;
@@ -72,7 +78,68 @@ margin-right: 100px;
 }
 
 
+@media screen and (max-width: 700px) {
+    
+    .topbar {
+        float: none;
+        width: 100%;
+        height: 290px;
+        margin-right: 30px;
+        margin-top: -32px;
+        margin-bottom: -12px;
+      }
+      .GradeTable{
+        font-size: 12px;
+      }
 
+      .animated-header
+      {
+        margin-top: 80px;
+        font-size: 30px;
+      }
+
+
+      .website_logo{
+            margin-top: 32px;
+            margin-left: auto;
+            height: 50%;
+            width: 50%;
+            float: right;
+            align-self: center;
+            display: block;
+        }
+        .website_photo{
+            opacity: 0%;
+            }
+            .animated-image{
+               
+                height: 30px;
+                width: 20px;
+
+            }
+
+            .socialMedia_logo{
+              
+                   list-style: square;
+            }
+            .social-icons{
+                line-height: 0.4px;
+                width: 30px;
+                /* height: 40px; */
+            }
+            .Aboutcolumn{
+
+                display: flow-root;
+            }           
+  }
+
+  .grid {
+    color: black;
+    margin: 5% 30% 5% ;
+    display: grid;
+    grid-gap: 100px;
+    grid-template-columns: repeat(3, 1fr);
+  }
 
 /* nav bar */
 a {
@@ -81,7 +148,7 @@ a {
 
 a:link {
 	text-decoration: none;
-  }
+	}
   
   a:visited {
 	text-decoration: none;
@@ -209,8 +276,6 @@ ul {
 .Aboutcolumn{
     display: inline-flex;
     margin-top: 10px;
-
- 
 }
 
 h4{
@@ -267,9 +332,13 @@ h4{
 
    .socialMedia_logo{
 
-        padding: 0;
-        width: 80px;
-        height: 80px;
-       list-style: none;
-    }
+/* padding: 0; */
+
+width: 80px;
+
+height: 80px;
+
+list-style: none;
+
+}
 
