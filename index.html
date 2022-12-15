@@ -37,22 +37,45 @@
 
     <br> <br> <br> <br> <br>
 
+    <section class="Aboutcolumn">
 
-    <div style="border-radius: 22px;color: rgb(255, 255, 255); background-color: rgb(55, 104, 133) ;">
+        <img class="animated-image" src="Images/photo bureau.PNG" style="margin: 20px;" alt="Bureau" width="600px" >
+        
+        <div style=" border-color: rgb(5, 66, 25); border: 20px;  margin: 12px; border-radius: 22px;color: rgb(255, 0, 0); ">
+            <h1 style=" font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; text-align: center; margin: 52px; color: rgb(0, 0, 0);">
 
-    <h1  style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: center; margin: 52px; color: rgb(255, 255, 255);">
 
+                <head><Br>  <Br>  <Br>
+                    <h2 style=" font-size: 50px; color: rgb(85, 107, 47); font-style: italic; font-family: 'Gill Sans', 
+                    'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" >Hi ! I'm Noam Semhoun,</h2>
+                     
+                    <h3  style= " font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; color: rgba(35, 56, 38, 0.76); text-align: left; float: inline-end;" >Welcome in my Portofolio Website
+                    </h3> <Br>
+                    <Br>
+        
+                    <Br>
+                    
+                </head>
+            </h1>        </div>
+    </section>
 
-        <head><Br>Hello ! I'm Noam Semhoun
-             <Br> WELCOME in my PORTOFOLIO Website
-            <Br>
-            <Br>
-
-            <Br>
-            
-        </head>
-    </h1>
-    </div>
+    <!-- ANIMATION -->
+    <script>
+        var title = document.getElementById("title");
+        var newTitle = "Hello";
+        var i = 0;
+  
+        function animateTitle() {
+          title.innerHTML += newTitle[i];
+          i++;
+          if (i < newTitle.length) {
+            setTimeout(animateTitle, 200);
+          }
+        }
+  
+        animateTitle();
+      </script>
+ 
 
 
 

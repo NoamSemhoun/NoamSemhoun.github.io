@@ -15,7 +15,18 @@ body {
 	overflow-x: hidden; /*clip the content and no scrolling mechanism is provided horizontally(x)*/
 }
 
- 
+.animated-header {
+    animation: scroll-left 5s linear infinite;
+  }
+  
+  @keyframes scroll-left {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
 
 
 .website_logo{
@@ -28,7 +39,7 @@ max-height: 100px;
 	display: inline-block;
 
 	margin-top: 0.1in;
-    margin-left: -200px;
+    margin-left: -400px;
     
 	width: 40%;
 	padding-left: -100%;
@@ -37,9 +48,9 @@ max-height: 100px;
 
 .website_photo{
 float: right;
-width: 120px;
+width: 130px;
 margin-top: 30px;
-margin-right: 50px;
+margin-right: 100px;
 }
 
  
@@ -214,10 +225,23 @@ h4{
     border-radius: 22px;
     background-color: #afcbeb;
     padding: 120px;
-    width: 100%;
+    width: auto;
     color: rgb(41, 46, 46);
   }
 
+  .animated-image {
+    animation: spin 1s linear ;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
   
   .column-a {
     
