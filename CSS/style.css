@@ -1,141 +1,251 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="stylesheet" href="css/about_us.css"> -->
-   <link rel="stylesheet" href="CSS/style.css">
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> --> 
+h1{
+color: #0b4769;
+text-align: center;
+    /* hello */
+}
 
 
-  <title>About NOAM</title>
-</head>
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.8;
+	font-size: 16px;
+	background: #fff;
+	color: #848484;
+	font-weight: 300;
+	overflow-x: hidden; /*clip the content and no scrolling mechanism is provided horizontally(x)*/
+}
+
+ 
 
 
-<body>
+.website_logo{
 
-                    <!-- logo  et menu -->
-    <div  class="topbar" id="topbar"  >
-   
-          <a   href="index.html"><img src="Images\logo_website.jpg" class="website_logo" alt="website_logo"></a>
-        <nav >
-          <ul>
-            <li><a href="Experience.html">Experience</a></li>
-            <li><a href="Education.html">  Education</a></li>
-            <li><a href="About Me.html">About Me</a></li>
-            <li><a href="Recruiters.html">Recruiters</a></li>
-            <!-- contact -->
+max-height: 100px;
+	max-width: 400px;
+	min-height: 100px;
+	min-width: 300px;
+	align-self: left;
+	display: inline-block;
+
+	margin-top: 0.1in;
+    margin-left: -200px;
     
-          </ul>
-        </nav>
+	width: 40%;
+	padding-left: -100%;
 
-      </div>
+}
 
-      <br>  <br> <br> <br> <br>
+.website_photo{
+float: right;
+width: 120px;
+margin-top: 30px;
+margin-right: 50px;
+}
+
+ 
+.topbar {
+    background-color: white;
+    color: #ffffff;
+    position: fixed;
+    overflow: hidden;
+    min-height: 50px;
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    align-items: flex-start;
+    margin-top: -30px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    z-index: 1000;
+}
+
+
+
+
+/* nav bar */
+a {
+	color: #0b4769;
+}
+
+a:link {
+	text-decoration: none;
+  }
+  
+  a:visited {
+	text-decoration: none;
+  }
+  
+  a:hover {
+	color: #8f99d1;
+	text-decoration: none;
+  }
+  
+  a:active {
+	text-decoration: underline;
+  }
+
+ul {
+	width: 100%;
+	text-align: center;
+}
+
+ li {          /*   MENU */
+    text-align: left;
+	margin: 0.8ch;
+	min-width: 100px;
+    max-width: 200px;
+
+	display: inline-block;
+}
+
+
+
+/* education  */
+
+.GradeTable{
+    margin: 0px auto;
+    border: rgb(4, 70, 50) solid;
+padding: 10px;
+border-collapse: separate;
+text-indent: initial;
+border-spacing: 2px;
+}
+
+.GradeTable thead{
+    background-color: rgb(4, 70, 50);
+color: blanchedalmond;
+}
+
+
+
+
+.galery{
+    text-align: center;
 
     
+}
 
 
+.project-list {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0%;
+    margin-right: 0%;
+    text-align: right;
+    max-width: 1200px;
+    padding: 0;
+    display: inline-flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.project-list li {
+    display: inline-block;
+    width: 220px;
+    margin: 0px 80px 40px;
+    margin-top: 5px;
 
-<section class="Aboutcolumn">
-
-<img src="Images/My photo  about me.jpg"  width="400px">
-
-<div style="margin:12px ;" >
-  <h2> &nbsp GENERAL INFOS :</h2>
-
-<h4 id="general " class="Aboutcolumn"  >
- Date of birth :  &nbsp 30/01/2000
- <br>Adress :  Avaa'd Aleumi 21, Jerusalem
- <br>Tel :&nbsp    058 612 1149
- <br>Mail : &nbsp noam@semhoun.eu
- <br>
- <br>
- 
-
-
- I am a 4th-year student of Softwware Engineering at JCT<br>
-  with excellent interpersonal and time management skills.
- <br>
- &nbsp • I am self-disciplined, highly  dedicated,<br>
-  and highly organized, with the ability to grasp new concepts quickly, <br>
-  and work under pressure with a team or on my own.
-  <br>
-  &nbsp • During my academic studies I have developed programs in various languages<br>
-  including: C++ (OOP, stl, WINAPI), C# (.NET framwork and 3 layers model), XAML (WPF), Java, Python and SQL.
-  <br>
- 
-  &nbsp • I'm a self-learner, motivated, success-oriented student  <br>
- and passionate about expanding my knowledge.
-</h4>
-</div>
-</section>
-
-<section class="Aboutstam">
-  <h4 id="text">
-    I had the experience of several projects in FullStack, which brought me a large number of skills in Web development. 
-    <br>The field of big data, RL and machine learning is really what interests and excites me.  
-The one where I continue to train myself, and I will not finish acquiring skills.
-<br><br> On the other hand, do not recruit a candidate only for their skills but for their state of mind because skills can always be learned... 
-My state of spirit is motivated, I am constantly looking to surpass myself, invested and serious in all my activities.  
-*
-  </h4>
-  <br>
-
-
-  <h1> HOBBIES :</h1>
-
-    <section class="Aboutcolumn">
-
-
-      <h4 id="synopsis " class="Aboutcolumn"  >
-       <br>  <br>
-       I am a 4th-year student of Software Engineering at JCT <br> 
-       with excellent interpersonal and time management skills.
-       <br><br>
-       Self-learner, motivated, success-oriented highly dedicated, <br>
-       highly organized, with the ability to grasp new concepts quickly, <br>
-       and work under pressure with a team or on my own. <br>
-      </h4>
-
-      <img src="Images/photo foot about.jpg" width="200px">
-
-
-</section>
+    display: list-item;
+ }
+.project-list li > a {
+    display: block;
+    text-decoration: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    border: 4px solid #ffffff;
+    outline: 1px solid #d0d0d0;
+    box-shadow: 0 2px 1px #ddd;
+}
+.project-list .details {
+    margin-top: 3px;
+    text-align: center;
+}
+.project-list .details .project-type {
+    display: block;
+    color: #717171;
+    font-size: 15px;
+     font-weight: normal;
+    text-align: center;
+    margin: 0;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
 
 
 
 
+.buttonMore{
+   background-color: transparent;
+    color: black;
+    font-size: 20px;
+    border: 2px solid #385558; /* Green */
+}
 
 
+/*     about me      */
 
 
-
-  <SECTION id="footer">
-
-   
-    <ul class="social-icons"   >
-                       
-                       
-        <li>        
-          <a   href="https://facebook.com"><img src="Images\facebook.png" class="socialMedia_logo" alt="SocialMedia_logo"></a>
-        </li>
-        <li>        
-            <a   href="https://github.com/NoamSemhoun/"><img src="Images\github.png" class="socialMedia_logo" alt="SocialMedia_logo"></a>
-          </li>
-          <li>        
-            <a   href="https://www.linkedin.com/in/noam-semhoun"><img src="Images\linkedin.png" class="socialMedia_logo" alt="SocialMedia_logo"></a>
-          </li>
-          <li>        
-            <a   href="https://wa.me/33768240046"><img src="Images\whatsapp.png" class="socialMedia_logo" alt="SocialMedia_logo"></a>
-          </li>
-        
-    </ul>
-    <p style="text-align: center;" >© 2022 Resume | Design by Noam Semhoun</p>
-</SECTION>
-
-  </body>
-</html>
+.Aboutcolumn{
+    display: inline-flex;
+    margin-top: 10px;
 
  
+}
+
+h4{
+    color: rgb(0, 1, 37);
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* contact */
+
+
+.contact {
+    border-radius: 22px;
+    background-color: #afcbeb;
+    padding: 120px;
+    width: 100%;
+    color: rgb(41, 46, 46);
+  }
+
+  
+  .column-a {
+    
+    box-sizing: border-box;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+    margin: auto;
+    position: relative; /*doesnt change layout around contrairement a absolute*/
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+
+
+
+   .socialMedia_logo{
+
+        padding: 0;
+        width: 80px;
+        height: 80px;
+       list-style: none;
+    }
+
