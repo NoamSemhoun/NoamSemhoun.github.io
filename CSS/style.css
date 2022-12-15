@@ -9,7 +9,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	line-height: 1.8;
 	font-size: 16px;
-	background: #fff;
+	background: rgba(255, 253, 246, 0.767);
 	color: #848484;
 	font-weight: 300;
 	overflow-x: hidden; /*clip the content and no scrolling mechanism is provided horizontally(x)*/
@@ -288,7 +288,7 @@ h4{
 
 .contact {
     border-radius: 22px;
-    background-color: #afcbeb;
+    background-color: #c5dcf7;
     padding: 120px;
     width: auto;
     color: rgb(41, 46, 46);
