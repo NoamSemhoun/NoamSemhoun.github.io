@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="css/about_us.css"> -->
+   <link rel="stylesheet" href="CSS/style.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> --> 
+
+
+  <title>About NOAM</title>
+</head>
+
+
+<body>
+
+                    <!-- logo  et menu -->
+    <div  class="topbar" id="topbar"  >
+   
+          <a   href="index.html"><img src="Images\logo_website.jpg" class="website_logo" alt="website_logo"></a>
+        <nav >
+          <ul>
+            <li><a href="Experience.html">Experience</a></li>
+            <li><a href="Education.html">  Education</a></li>
+            <li><a href="About Me.html">About Me</a></li>
+            <li><a href="Recruiters.html">Recruiters</a></li>
+            <!-- contact -->
+    
+          </ul>
+        </nav>
+
+      </div>
+
+      <br>  <br> <br> <br> <br>
+
+    
+
+
+
+<section class="Aboutcolumn">
+
+<img src="Images/My photo  about me.jpg"  width="400px">
+
+<div style="margin:12px ;" >
+  <h2> &nbsp GENERAL INFOS :</h2>
+
+<h4 id="general " class="Aboutcolumn"  >
+ Date of birth :  &nbsp 30/01/2000
+ <br>Adress :  Avaa'd Aleumi 21, Jerusalem
+ <br>Tel :&nbsp    058 612 1149
+ <br>Mail : &nbsp noam@semhoun.eu
+ <br>
+ <br>
+ 
+
+
+ I am a 4th-year student of Softwware Engineering at JCT<br>
+  with excellent interpersonal and time management skills.
+ <br>
+ &nbsp • I am self-disciplined, highly  dedicated,<br>
+  and highly organized, with the ability to grasp new concepts quickly, <br>
+  and work under pressure with a team or on my own.
+  <br>
+  &nbsp • During my academic studies I have developed programs in various languages<br>
+  including: C++ (OOP, stl, WINAPI), C# (.NET framwork and 3 layers model), XAML (WPF), Java, Python and SQL.
+  <br>
+ 
+  &nbsp • I'm a self-learner, motivated, success-oriented student  <br>
+ and passionate about expanding my knowledge.
+</h4>
+</div>
+</section>
+
+<section class="Aboutstam">
+  <h4 id="text">
+    I had the experience of several projects in FullStack, which brought me a large number of skills in Web development. 
+    <br>The field of big data, RL and machine learning is really what interests and excites me.  
+The one where I continue to train myself, and I will not finish acquiring skills.
+<br><br> On the other hand, do not recruit a candidate only for their skills but for their state of mind because skills can always be learned... 
+My state of spirit is motivated, I am constantly looking to surpass myself, invested and serious in all my activities.  
+*
+  </h4>
+  <br>
+
+
+  <h1> HOBBIES :</h1>
+
+    <section class="Aboutcolumn">
+
+
+      <h4 id="synopsis " class="Aboutcolumn"  >
+       <br>  <br>
+       I am a 4th-year student of Software Engineering at JCT <br> 
+       with excellent interpersonal and time management skills.
+       <br><br>
+       Self-learner, motivated, success-oriented highly dedicated, <br>
+       highly organized, with the ability to grasp new concepts quickly, <br>
+       and work under pressure with a team or on my own. <br>
+      </h4>
+
+      <img src="Images/photo foot about.jpg" width="200px">
+
+
+</section>
+
+
+
+
+
+
+
+
+
+  <SECTION id="footer">
+
+   
+    <ul class="social-icons"   >
+                       
+                       
+        <li>        
+          <a   href="https://facebook.com"><img src="Images\facebook.png" class="socialMedia_logo" alt="SocialMedia_logo"></a>
+        </li>
+        <li>        
+            <a   href="https://github.com/NoamSemhoun/"><img src="Images\github.png" class="socialMedia_logo" alt="SocialMedia_logo"></a>
+          </li>
+          <li>        
+            <a   href="https://www.linkedin.com/in/noam-semhoun"><img src="Images\linkedin.png" class="socialMedia_logo" alt="SocialMedia_logo"></a>
+          </li>
+          <li>        
+            <a   href="https://wa.me/33768240046"><img src="Images\whatsapp.png" class="socialMedia_logo" alt="SocialMedia_logo"></a>
+          </li>
+        
+    </ul>
+    <p style="text-align: center;" >© 2022 Resume | Design by Noam Semhoun</p>
+</SECTION>
+
+  </body>
+</html>
+
+ 
